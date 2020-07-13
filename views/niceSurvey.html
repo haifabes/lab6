@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Questionnaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Style sheet (CSS) and JavaScript scripts necessary to use Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>    
+
+    <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+  </head>
+  
+  <body>
+	
+    <section  class="container-md p-3 my-3 border bg-dark text-white" id="survey">
+    <h1>Survey</h1>
+    <div class="uozone">
+      <div class="container-md">
+        <img src="uozone.JPG" alt="uozone"class="center"> 
+        </div>
+
+      
+      <h4>Survey targeted to mesure the performance an usability of 
+        <a href="https://uozone2.uottawa.ca/">uozone</a>, the one-stop portal for students at uOttawa.<h4>
+        </div>
+    <form>
+      <div class="container-md p-2 my-3 bg-light text-dark rounded form-group">
+      <h2> 1. What do you think of uozone?</h2>
+      I think it's:<br>
+      <input type="checkbox" name="Q1" value="Userfriendly">Userfriendly<br>
+      <input type="checkbox" name="Q1" value="Aesthetically pleasing">Aesthetically pleasing<br>
+      <input type="checkbox" name="Q1" value="Dependable">Dependable<br>
+      <input type="checkbox" name="Q1" value="Efficient">Efficient<br>
+      <input type="checkbox" name="Q1" value="None of the above">None of the above<br>
+      </div>
+
+      <div class="container-md p-2 my-3 bg-light text-dark rounded form-group">
+      <h2> 2. I found the platform had alot of unnecessery feature  :</h2>
+      <br>
+      <input type="radio" name ="Q2" value="Strongly agree">Strongly agree<br>
+      <input type="radio" name ="Q2" value="Agree">Agree<br>
+      <input type="radio" name ="Q2" value="Nor agree nor diagree">Nor agree nor diagree<br>
+      <input type="radio" name ="Q2" value="Disagree">Disagree<br>
+      <input type="radio" name ="Q2" value="Strongly disagree">Strongly disagree<br>
+      </div>
+
+      <div class="container-md p-2 my-3 bg-light text-dark rounded form-group">
+      <h2>3. On a scale of 1 to 5 how easily do you find what you're looking for in uozone ?</h2>
+      I like:<br>
+      <select name ="level">
+        <option value="1" name ="Q3" selected= "selected"> 1</option>
+        <option value="2" name ="Q3" selected= "selected"> 2</option>
+        <option value="3" name ="Q3" selected= "selected"> 3</option>
+        <option value="4" name ="Q3" selected= "selected"> 4</option>
+        <option value="5" name ="Q3"selected= "selected"> 5</option>
+        </select>
+      </div>
+      
+      <button type="submit" class="btn btn-warning" id="bb">Submit</button>
+      <p id="thanks"></p>
+    </form>
+    </div>
+  </section> 
+	<script src="/asset/listen.js"></script>
+  </body>
+  <footer>
+    <p class="text-center">Haifa Besrour 300102272</p>
+  </footer>
+</html> 
